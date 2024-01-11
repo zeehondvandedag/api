@@ -2,12 +2,13 @@
 //  HTTPS://WWW.ZEEHONDVANDEDAG.NL
 //  VOOR MEER VRAGEN MAIL FENDER@ZEEHONDVANDEDAG.NL
 //  LICENSE CC BY-NC-ND https://creativecommons.org/licenses/by-nc-nd/4.0/
+//  VOOR IDEEËN VAN DE WEBSITE LEG CONTACT OP MET FENDER@ZEEHONDVANDEDAG.NL
 const https = require('https');
 const fs = require('fs');
 
 function getSealNumber() {
-    var totalSeals = 93; // KIJK NAAR REGEL 11 OP HTTPS://WWW.ZEEHONDVANDEDAG.NL/SCRIPT.JS EN VERANDER HET
-// 29-12-2023 var totalSeals = 93
+    var totalSeals = 164; // KIJK NAAR REGEL 11 OP HTTPS://WWW.ZEEHONDVANDEDAG.NL/SCRIPT.JS EN VERANDER HET
+// 11-1-2024 var totalSeals = 164
     var date = new Date().toLocaleString("en-US", {timeZone: "Europe/Amsterdam"});
     date = new Date(date);
 
